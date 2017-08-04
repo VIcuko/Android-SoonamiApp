@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/iTurbo/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.4.0/support-annotations-23.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="/Users/iTurbo/Google Drive/3. Developer/11. Udacity/0. Android/SoonamiApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.4.0_0836eaa86784d956d1c733b334d057da776b558b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iTurbo/Google Drive/3. Developer/11. Udacity/0. Android/SoonamiApp/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/Users/iTurbo/Google Drive/3. Developer/11. Udacity/0. Android/SoonamiApp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_9252291fa0853f7edd858e27d455373bab79c686/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iTurbo/.android/build-cache/9f237887c161565a45439c9bf6305229211b30e1/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="/Users/iTurbo/Google Drive/3. Developer/11. Udacity/0. Android/SoonamiApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_b8974858a3a81c791b0de096e40c5b3308cfcf58/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iTurbo/.android/build-cache/c9465fda1eb77140d9ea35887d5aa55a4910b769/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="/Users/iTurbo/Google Drive/3. Developer/11. Udacity/0. Android/SoonamiApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_9dbba5f99b21b793b1623b96c7818504341041cd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iTurbo/.android/build-cache/e8f002974b84df5d1be055da01175e8fcfcc2424/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="/Users/iTurbo/Google Drive/3. Developer/11. Udacity/0. Android/SoonamiApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_eeaa18fd467483173c9ffefa1e57b94e0581d2ca/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iTurbo/.android/build-cache/65a62bff70eaaaa024818e914beabb9df6345db8/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="/Users/iTurbo/Google Drive/3. Developer/11. Udacity/0. Android/SoonamiApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_ec425f722dd6314dfaeaac60c60909b2e2bebb33/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iTurbo/.android/build-cache/e8f002974b84df5d1be055da01175e8fcfcc2424/output/jars/libs/internal_impl-23.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="/Users/iTurbo/Google Drive/3. Developer/11. Udacity/0. Android/SoonamiApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.4.0_1c16787d0bd470a20e7bdd8e9f357073d4093b7c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iTurbo/Google Drive/3. Developer/11. Udacity/0. Android/SoonamiApp/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fab3b29c58c7220ad7595d0e3a214f63c2df7eca">
+        <dex dex="/Users/iTurbo/Google Drive/3. Developer/11. Udacity/0. Android/SoonamiApp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_33741062adcb6f363483922e7b5ba103c646f769/classes.dex" />
+    </item>
+
+</items>
