@@ -20,6 +20,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -57,8 +58,14 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         // Kick off an {@link AsyncTask} to perform the network request
-        TsunamiAsyncTask task = new TsunamiAsyncTask();
-        task.execute();
+        if (USGS_REQUEST_URL != "") {
+            TsunamiAsyncTask task = new TsunamiAsyncTask();
+            task.execute();
+        }
+        else{
+            Toast toast = Toast.makeText(this, R.string.missing_url_toast,Toast.LENGTH_LONG);
+            toast.show();
+        }
     }
 
     /**
@@ -113,13 +120,12 @@ public class MainActivity extends AppCompatActivity {
 
             // Perform HTTP request to the URL and receive a JSON response back
             String jsonResponse = "";
-            if (url != null) {
+
                 try {
                     jsonResponse = makeHttpRequest(url);
                 } catch (IOException e) {
                     // TODO Handle the IOException
                 }
-            }
 
             // Extract relevant fields from the JSON response and create an {@link Event} object
             Event earthquake = extractFeatureFromJson(jsonResponse);
